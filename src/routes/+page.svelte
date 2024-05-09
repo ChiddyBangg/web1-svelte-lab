@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
+<script>
+  import Card from '../Components/Card.svelte'
+  import Header from '../Components/Header.svelte';
+</script>
+<Header />
+
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<section>
+    <Card />
+    <Card />
+</section>
+
+<style>
+    section{
+        display: flex;
+     }
+</style>
