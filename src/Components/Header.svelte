@@ -1,17 +1,20 @@
 <script></script>
 
 <section>
-    <h1> We Are Cards</h1> 
+    <header> We Are Cards</header> 
 </section>
 
 
 
 <style>
-    h1{
-        
+
+    header {
+        padding: 2rem;
+        grid-column: 1 / 4;
         color:rebeccapurple;
         text-align: center;
-    }
+        }
+   
   
     
 </style>
