@@ -2,7 +2,7 @@
   import Card from '../Components/Card.svelte'
   import Footer from '../Components/Footer.svelte';
   import Header from '../Components/Header.svelte';
-  import left-side from '../Components/Sidebar.svelte';
+  
 </script>
 <Header />
 
