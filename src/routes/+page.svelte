@@ -1,21 +1,23 @@
 <script>
-  import Card from '../Components/Card.svelte'
-  import Footer from '../Components/Footer.svelte';
-  import Header from '../Components/Header.svelte';
-  
+  import Card from "../Components/Card.svelte";
+  import Footer from "../Components/Footer.svelte";
+  import Header from "../Components/Header.svelte";
+  import Sidebar from "../Components/Sidebar.svelte";
 </script>
+
 <Header />
 
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
 <section>
-    <Card />
-    <Card />
+  <Sidebar />
+  <Card />
+  <Card />
+  <Card />
 </section>
-<left-side />
+
 <Footer />
+
 <style>
-    section{
-        display: flex;
-     }
+  section {
+    display: flex;
+  }
 </style>

@@ -1,18 +1,18 @@
 <script>
-    import Picture from "./Picture.svelte";
-    import Details from "./Details.svelte";
+  import Picture from "./Picture.svelte";
+  import Details from "./Details.svelte";
 </script>
 
 <section>
-    <Picture />
-    <Details />
-
+  <Picture />
+  <Details />
 </section>
 
 <style>
-    section{
-
-        display: flex;
-        border: 1px solid black;
-    }
+  section {
+    display: flex;
+    padding: 10px;
+    height: 250;
+    border: 1px solid black;
+  }
 </style>

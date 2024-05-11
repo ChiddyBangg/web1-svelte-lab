@@ -1,16 +1,14 @@
 <script></script>
 
-
 <section>
-
-    <footer>text for the bottom of the page</footer>
+  <footer>
+    text for the bottom of the page, this a sad atempt at getting this to work
+  </footer>
 </section>
 
-
 <style>
-
-footer {
-    grid-column: 1 / 4;
+  footer {
+    border: 2px solid black;
+    display: flex;
   }
-
 </style>
