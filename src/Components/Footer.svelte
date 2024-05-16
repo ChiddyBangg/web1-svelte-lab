@@ -8,7 +8,13 @@
 
 <style>
   footer {
-    border: 2px solid black;
-    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
   }
 </style>

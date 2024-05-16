@@ -1,10 +1,18 @@
 <script>
   import Picture from "./Picture.svelte";
+  export let navItems;
 </script>
 
+<nav>
+  <ul>
+    {#each navItems as item}
+      <li><a href={item.href}>{item.text}</a></li>
+    {/each}
+  </ul>
+</nav>
 <section>
   <p>this information is on the left side bar with images</p>
-  <p />
+
   <Picture />
   <ul>
     <li><a href="link 1 ">Link 1</a></li>
@@ -23,7 +31,14 @@
 </section>
 
 <style>
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+  }
   section {
+    float: left;
     flex-direction: column;
     display: flex;
     border: 4px solid black;
