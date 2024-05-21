@@ -9,10 +9,14 @@
 <style>
  
   footer {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1em;
     text-align: center;
+  }
+  section{
+padding-top: 1em;
+
   }
 </style>

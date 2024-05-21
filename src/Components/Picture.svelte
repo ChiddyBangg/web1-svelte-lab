@@ -9,6 +9,7 @@
 
 <style>
   figure {
+   
     margin: 0;
   }
 </style>

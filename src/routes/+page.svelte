@@ -37,13 +37,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+    
+    padding: 1em;
   }
  
   
-  main {
-    
-    
+  main {   
     display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
+    grid-template: auto 1fr auto / auto 1fr;
+   
   }
 </style>

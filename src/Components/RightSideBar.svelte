@@ -20,12 +20,12 @@ import Picture from "./Picture.svelte";
 
 
 <style>  right-side {
+  background-color: chartreuse;
     grid-column: 3 / 4;
 }
-ul {
-    padding-left: 0;
-  }
+
   li {
     list-style: none;
   }
+  
   </style>
