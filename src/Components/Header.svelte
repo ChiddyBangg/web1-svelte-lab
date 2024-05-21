@@ -5,11 +5,12 @@
 </section>
 
 <style>
+  
   header {
     padding: 2rem;
     grid-column: 1 / 4;
-    color: rebeccapurple;
     text-align: center;
     border: 2px solid black;
+    padding: 2rem;
   }
 </style>

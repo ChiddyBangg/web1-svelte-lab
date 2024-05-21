@@ -10,7 +10,7 @@
     {/each}
   </ul>
 </nav>
-<section>
+<left-side>
   <p>this information is on the left side bar with images</p>
 
   <Picture />
@@ -18,17 +18,11 @@
     <li><a href="link 1 ">Link 1</a></li>
     <li><a href="link 2">Link 2</a></li>
     <li><a href="link 3">Link 3</a></li>
-    <li><a href="link 1 ">Link 1</a></li>
-    <li><a href="link 2">Link 2</a></li>
-    <li><a href="link 3">Link 3</a></li>
-    <li><a href="link 1 ">Link 1</a></li>
-    <li><a href="link 2">Link 2</a></li>
-    <li><a href="link 3">Link 3</a></li>
-    <li><a href="link 1 ">Link 1</a></li>
-    <li><a href="link 2">Link 2</a></li>
-    <li><a href="link 3">Link 3</a></li>
+ 
   </ul>
-</section>
+</left-side>
+
+
 
 <style>
   ul {
@@ -37,12 +31,11 @@
   li {
     list-style: none;
   }
-  section {
-    float: left;
-    flex-direction: column;
-    display: flex;
-    border: 4px solid black;
-    padding: 10px;
-    color: #9c1414;
+
+
+  left-side {
+    grid-column: 1 / 2;
+    padding-right: 1em;
   }
+  
 </style>

@@ -7,11 +7,9 @@
 </section>
 
 <style>
+ 
   footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    grid-column: 1 / 4;
     background-color: #333;
     color: #fff;
     padding: 10px;

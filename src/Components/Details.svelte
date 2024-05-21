@@ -26,4 +26,8 @@
   <dd>{person.occupation}</dd>
 </dl>
 
-<style></style>
+<style>
+  dl{
+    color: white;
+  }
+</style>
