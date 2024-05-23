@@ -5,16 +5,16 @@
 
   let nav = [
     { text: "Home", href: "/" },
-    { text: "About", href: "/about" },
-    { text: "My Cards", href: "/cards" },
-    { text: "Contact", href: "/contact" },
+    { text: "Profile ", href: "/profile" },
+    { text: "Cards", href: "/cards" },
+    // { text: "Contact", href: "/contact" },
   ];
 </script>
 
 <Header />
 
 <main>
-  <Sidebar navItems={nav} />
+    <!-- <Sidebar navItems={nav} /> -->
   <slot />
 </main>
 <Footer />
