@@ -21,7 +21,8 @@ import Picture from "./Picture.svelte";
 
 <style>  right-side {
   background-color: chartreuse;
-    grid-column: 3 / 4;
+    grid-column: 3/3 ;
+    
 }
 
   li {
