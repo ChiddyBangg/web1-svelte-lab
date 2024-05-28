@@ -1,10 +1,11 @@
 <script>
-  let userName = "@Example";
+  export let person;
+  
 </script>
 
 <figure>
   <img src="https://placehold.co/150" alt="Placeholder" />
-  <figcaption>{userName}</figcaption>
+  <figcaption>{person.username}</figcaption>
 </figure>
 
 <style>

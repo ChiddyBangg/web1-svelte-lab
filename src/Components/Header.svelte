@@ -1,10 +1,5 @@
 <script></script>
 
-
-
-   
-
-
 <section>
   <nav>
     <ul>

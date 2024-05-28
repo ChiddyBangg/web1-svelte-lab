@@ -14,7 +14,7 @@
 <Header />
 
 <main>
-    <!-- <Sidebar navItems={nav} /> -->
+     <!-- <Sidebar navItems={nav} />  -->
   <slot />
 </main>
 <Footer />

@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import Picture from "./Picture.svelte";
 </script>
 
@@ -29,4 +29,4 @@ import Picture from "./Picture.svelte";
     list-style: none;
   }
   
-  </style>
+  </style> -->
